@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abiola Akorede">
+    <meta name="description" content="Home Page for WDD231 - Web Development I">
+
+    <title>WDD 231 - Course Home Page | Abiola Akorede</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/logo.jpeg" sizes="16x16" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles/normalize.css" media="screen">
+    <link rel="stylesheet" href="styles/homepage-small.css" media="screen">
+    <link rel="stylesheet" href="styles/homepage-large.css" media="screen">
+    <script src="scripts/course-list.js" defer></script>
+    <script src="scripts/homepage.js" defer></script>
+</head>
+
+<body>
+
+    <div class="intro-container">
+        <img src="images/abiola.jpg" alt="Abiola Akorede">
+        <h1>Abiola Akorede</h1>
+        <span id="menu">☰</span>
+    </div>
+
+    <header>
+        <nav class="nav-links">
+            <a href="#"> <span class="close-menu">✖</span> </a>
+            <a href="index.html">Home</a>
+            <a href="#">Chamber</a>
+            <a href="#">GitHub Profile</a>
+            <a href="#">LinkedIn</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <section class="tag-one">
+                <h2>Course Work</h2>
+                <ul>
+                    <li class="course-taken"> WDD231 Home Page</li>
+                    <li class="course-taken"> Chamber of Commerce</li>
+                    <li class="course-taken"> Final Project</li>
+                </ul>
+            </section>
+
+            <section class="tag-two">
+                <h2>Ibadan, Nigeria</h2>
+                <img src="images/cocoa_house.jpg" width="1724" height="2594" alt="Cocoa House">
+                <p>Cocoa House</p>
+            </section>
+
+            <section class="tag-three">
+                <h2>Web and Computer Programming Certificate</h2>
+
+                <div class="btn-container">
+                    <button class="all-course">All</button>
+                    <button class="cse-course">CSE</button>
+                    <button class="wdd-course">WDD</button>
+                </div>
+                <hr>
+                <div class="courses-container"></div>
+            </section>
+
+        </div>
+        <span class="total-credit"></span>
+    </main>
+
+    <footer class="footer-nav">
+
+        <span id="currentYear">&copy;</span>
+
+        <div class="flag-name">
+            <p> 🏝️ Abiola Akorede 🏝️ Nigeria </p>
+            <img src="images/Nigeria-Flag.jpg" alt="Nigerian Flag" width="3840" height="2160" loading="lazy">
+        </div>
+
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+
+</html>
