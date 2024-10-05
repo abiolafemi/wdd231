@@ -1,0 +1,39 @@
+{
+    "family_name": "Ajisafe",
+    "moved_in_date": "2024-09-23",
+    "number_of_members": 6,
+    "visited_by_bisphoric": true,
+    "family_members": [
+        {
+            "name": "Bukola Ajisafe",
+            "gender": "Female",
+            "birthdate": "1997-08-24"
+        },
+        {
+            "name": "Abraham Ajisafe",
+            "gender": "male",
+            "birthdate": "1998-05-12"
+        },
+        {
+            "name": "Victor Ajisafe",
+            "gender": "male",
+            "birthdate": "1999-06-20"
+        },
+        {
+            "name": "Sodiq Ajisafe",
+            "gender": "male",
+            "birthdate": "2001-09-09"
+        },
+        {
+            "name": "Femi Ajisafe",
+            "gender": "male",
+            "birthdate": "2002-12-25"
+        },
+        {
+            "name": "Wura Ajisafe",
+            "gender": "Female",
+            "birthdate": "2004-01-23"
+        }
+        
+    ]
+}
