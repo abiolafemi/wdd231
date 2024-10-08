@@ -20,7 +20,7 @@ menu.addEventListener('click', function () {
 
 const businessList = document.querySelector('#businessList')
 
-const url = 'https://lasso29.github.io/wdd231/chamber/data/members.json';
+const url = 'https://abiolafemi.github.io/wdd231/chamber/data/members.json';
 let response;
 
 async function getMembers(link) {
