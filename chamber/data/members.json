@@ -9,57 +9,57 @@
         "founded-in" : "1961"
     },
     {
-        "name" : "Fan Milk PLC",
-        "address" : "",
-        "phoneNumber" : "",
-        "website" : "" ,
-        "image" : "",
-        "membership" : "",
-        "founded-in" : ""
+        "name" : "Altak Industries Limited",
+        "address" : "Km 8, Old Lagos Road, Opposite New Garage, Challenge Ibadan, Oyo State, Nigeria",
+        "phoneNumber" : "+2348036503397",
+        "website" : "https://altakindustries.com/" ,
+        "image" : "images/altak.png",
+        "membership" : "3",
+        "founded-in" : "1990"
     },
     {
-        "name" : "Fan Milk PLC",
-        "address" : "",
-        "phoneNumber" : "",
-        "website" : "" ,
-        "image" : "",
-        "membership" : "",
-        "founded-in" : ""
+        "name" : "Sumal Food",
+        "address" : "Sumal Foods Limited, Plot 2A, Block J, Oluyole Industrial Estate. Ring Road, Ibadan",
+        "phoneNumber" : "+2349002234567",
+        "website" : "http://sumalfoods.com/" ,
+        "image" : "images/sumal.jpeg",
+        "membership" : "2",
+        "founded-in" : "1981"
     },
     {
-        "name" : "Fan Milk PLC",
-        "address" : "",
-        "phoneNumber" : "",
-        "website" : "" ,
-        "image" : "",
-        "membership" : "",
-        "founded-in" : ""
+        "name" : "Zartech Company",
+        "address" : "Ibadan, Oyo State of Nigeria.",
+        "phoneNumber" : "+2348111223344",
+        "website" : "https://www.zartechltd.com/" ,
+        "image" : "images/zartech.jpeg",
+        "membership" : "1",
+        "founded-in" : "1983"
     },
     {
-        "name" : "Fan Milk PLC",
-        "address" : "",
-        "phoneNumber" : "",
-        "website" : "" ,
-        "image" : "",
-        "membership" : "",
-        "founded-in" : ""
+        "name" : "Golden Tulip",
+        "address" : "Quarter 781, Gra Jericho Ibadan, Nigeria",
+        "phoneNumber" : "+234815860600",
+        "website" : "https://ibadan.goldentulip.com/" ,
+        "image" : "images/golden_tulip_logo,png",
+        "membership" : "3",
+        "founded-in" : "June 15, 2013"
     },
     {
-        "name" : "Fan Milk PLC",
-        "address" : "",
-        "phoneNumber" : "",
-        "website" : "" ,
-        "image" : "",
-        "membership" : "",
-        "founded-in" : ""
+        "name" : "Premier Feed company Limited",
+        "address" : "No 1, Eagle flour road, Premier Feeds Company Limited Ibadan",
+        "phoneNumber" : "+234 (0)908 750 4822",
+        "website" : "https://premierfeedsltd.com/" ,
+        "image" : "images/premier_feed.jpeg",
+        "membership" : "1",
+        "founded-in" : "2013"
     },
     {
-        "name" : "Fan Milk PLC",
-        "address" : "",
-        "phoneNumber" : "",
-        "website" : "" ,
-        "image" : "",
-        "membership" : "",
-        "founded-in" : ""
+        "name" : "Henkel (WAW SOAP)",
+        "address" : "No 9, Block F, Oluyole Industrial Estate Extension Ibadan, Nigeria.",
+        "phoneNumber" : "+2348140140014",
+        "website" : "https://www.wawlaundry.com/" ,
+        "image" : "images/waw-logo.webp",
+        "membership" : "2",
+        "founded-in" : "2011"
     }
 ]
