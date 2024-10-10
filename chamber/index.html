@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abiola Akorede">
+    <meta name="description" content="Home Page | Chamber of Commerce. This will be the home page of business listed on my site.">
+    <meta property="og:title" content="Abiola Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="My chamber of commerce page for WDD231 final project.">
+    <meta property="og:image" content="https://abiolafemi.github.io/wdd231/chamber/chamberOfCommercePic.jpg">
+    <meta property="og:url" content="https://abiolafemi.github.io/wdd231/chamber/directory.html">
+    <title>Home Page | Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/chamber-large.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="scripts/index.js" defer></script>
+    
+  
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div id="logo">
+                <img src="images/oyo_state.jpeg" alt="A mansion or a house logo" width="50" height="50">
+                <p>Ibadan</p>
+                <p id="smallFont">Chamber of Commerce</p>
+            </div>
+            <p id="menuBar"></p>
+        </div>
+        <nav id="navi">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="imagecontainer">
+            <picture class="hero">
+                <source srcset="images/chamber-heroimage-large.webp" media="(min-width: 1200px)" width="1500"
+                    height="750">
+                <source srcset="images/chamber-heroimage-medium.webp" media="(min-width: 600px)">
+                <img src="images/chamber-heroimage-small.webp"
+                    alt="hero-image showing a board room with chairs arranged round a rectangular table" width="400"
+                    height="200">
+            </picture>
+            <p id="action"><a href="#">Join Us Today</a></p>
+        </div>
+        <section class="infoCardSection">
+            <h2>Home</h2>
+            <div class="homepageSection1Grid">
+                <div>
+                    <h3>Events</h3>
+                    <ul>
+                        <li>Event marking 5 year aniversary of the chamber on Aug 2</li>
+                        <li>New member welcome party on Aug 22</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Current Weather</h3>
+                    <div id="current-weather"></div>
+                </div>
+                <div>
+                    <h3>Weather Forecast</h3>
+                    <div class="infoCard" id="weather-forecast"></div>
+                </div>
+            </div>
+        </section>
+        <section class="homepageSection2">
+            <h2>Members SpotLight</h2>
+            <div id="members"></div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h2>Ibadan Chamber of Commerce</h2>
+            <p>bubbles.femi@gmail.com</p>
+            <p>+234</p>
+            <p>
+                <a id="a" href="https://www.flaticon.com/free-icons/chamber" title="chamber icons">Chamber icons created
+                    by
+                    smashingstocks - Flaticon</a>
+            </p>
+        </div>
+
+        <div class="socialMediaIcons"></div>
+        <div>
+            <p>WDD 231 Class Project</p>
+            <p>Abiola Akorede</p>
+            <p>©<span id="currentYear"></span> Ibadan Chamber of Commerce</p>
+            <p>Last Modification : <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
