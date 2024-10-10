@@ -20,7 +20,7 @@ menu.addEventListener('click', function () {
 
 const businessList = document.querySelector('#businessList')
 
-const url = 'https://lasso29.github.io/wdd231/chamber/data/members.json';
+const url = 'https://abiolqfemi.github.io/wdd231/chamber/data/members.json';
 let response;
 
 async function getMembers(link) {
@@ -153,7 +153,7 @@ function displayWeatherForecast() {
 }
 
 
-const url4 = 'https://lasso29.github.io/wdd231/chamber/data/members.json';
+const url4 = 'https://abiolafemi.github.io/wdd231/chamber/data/members.json';
 let randomIndexList = [];
 
 
