@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abiola Akorede">
+    <meta name="description" content="Dogcopedia | Home Page | Abiola Akorede">
+    <meta property="og:title" content="DogCoPedia website">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="My chamber of commerce page for WDD231 final project.">
+    <meta property="og:image" content="https://abiolafemi.github.io/wdd231/chamber/chamberOfCommercePic.jpg">
+    <meta property="og:url" content="https://abiolafemi.github.io/wdd231/chamber/directory.html">
+    <title>Home Page | DogCoPedia</title>
+    <link rel="icon" href="images/paw.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/project-large.css">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/index.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div id="logo">
+                <img src="images/paww.png" alt="a symbol of a dog paw" width="50" height="50">
+                <p>DogCoPedia</p>
+            </div>
+            <p id="menuBar"></p>
+        </div>
+        <nav id="navi">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="joinMain">
+        <h1>Join Our Community Today!</h1>
+        <p> Want to know more about dogs and communicate with other pet owners? . Join Our community today and get 
+            access to these opportunities and alot more features. Plus it's always good to meet and know individuals who are 
+            interested in taking care of dogs. There are alot of tips and ideas you could catch along the way.
+        </p>
+        <div class="aboutImages">
+            <img src="images/join-image1.webp" alt="picture of two individuals smiling with a dog in the middle" loading="lazy">
+            <img src="images/join-image2.webp" alt="picture of a family smiling with numerous dogs with them"
+                loading="lazy">
+        </div>
+        <dialog id="dialog">
+        </dialog>
+        <h2>Please fill the form to join our community today</h2>
+        <form class="joinForm" method="get" action="thankyou.html">
+            <p class="indicator"> * means that the field is required</p>
+            <label>First Name<input type="text" name="firstname" autocomplete="on" required></label>
+            <label>Last Name<input type="text" name="lastname" autocomplete="on" required></label>
+            <label>Email<input type="email" name="email" placeholder="someone@gmail.com" autocomplete="on"
+                    required></label>
+            <label>mobile phone number<input type="tel" name="phonenumber" autocomplete="on" required></label>
+            <input type="submit" id="submit" name="submit" value="Join Today">
+        </form>
+    </main>
+</body>
+<footer>
+    <div>
+        <h2>Ibadan Chamber of Commerce</h2>
+        <p>bubbles.femi@gmail.com</p>
+        <p>+234</p>
+        <p>
+            <a id="a" href="https://www.flaticon.com/free-icons/paw" title="paw icons">Paw icons created
+            by
+            Freepik - Flaticon</a>
+        </p>
+    </div>
+
+    <div class="socialMediaIcons"></div>
+    <div>
+        <p>WDD 231 Class Project</p>
+        <p>Abiola Akorede</p>
+        <p>©<span id="currentYear"></span> Ibadan Chamber of Commerce</p>
+        <p>Last Modification : <span id="lastModified"></span></p>
+    </div>
+</footer>
+</html>

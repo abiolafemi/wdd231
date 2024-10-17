@@ -14,14 +14,14 @@
     <link rel="icon" href="images/paw.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/project-large.css">
     <link rel="stylesheet" href="styles/project.css">
-    <script src="scripts/index.js" type="module" defer></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="script" type="module" defer></script>
 </head>
-
 <body>
     <header>
         <div class="header">
             <div id="logo">
-                <img src="images/paw.png" alt="a symbol of a dog paw" width="50" height="50">
+                <img src="images/paww.png" alt="a symbol of a dog paw" width="50" height="50">
                 <p>DogCoPedia</p>
             </div>
             <p id="menuBar"></p>
@@ -36,41 +36,34 @@
     </header>
     <main>
         <h1>DogCoPedia</h1>
-        <p>We Know how passionate you are about your pets, especially those of you, Dog lovers. So we want to
-            help you know more about this wonderful friend of man. At DogCoPedia, we provide you with a wide range of
-            dog images
-            and information that will help pet owners know more about their dogs and also intending owners find the
-            Dog breed that is right for them.
+        <p>Welcome to DogCoPedia, we are committed to supplying the accurate facts about a wide range of
+            dog breeds and also images to know the breed you are interested in getting, we do this by
+            using fast and reliable APIs provided by dogceo. We hope this resources will be effective in helping
+            you find the right dog breed for you!.
         </p>
-        <div class="breedfilter">
-            <h2>Breed Filter</h2>
-            <p>Find your desired Dog breed</p>
-            <form>
-                <label>Breed List *
-                    <select name="breedName" id="breedName" required>
-                        <option value="" disabled selected>Choose a Breed ....</option>
-                    </select>
-                </label>
-                <span>Get Breed</span>
-            </form>
+        <div class="aboutImages">
+            <img src="images/dog-image1.jpg" alt="picture of someone holding a dog" loading="lazy">
+            <img src="images/dog-image2.jpg" alt="picture of a dog sitting on a ground filled with leaves"
+                loading="lazy">
         </div>
-        <div class="breedfilter" id="doginfo">
-            <h2></h2>
-            <p id="bredfor"></p>
-             <p id="origin"></p>
-             <p id="lifespan"></p>
-             <p id="temperament"></p>
-             <p id="breedgroup"></p>
-        </div>
-        <section class="random">
-            <h2>Random Dogs Display</h2>
-            <div class="randomImages"></div>
-        </section>
-       
         <dialog id="dialog">
         </dialog>
-        
-
+        <div id="ourDetails">
+            <section id="ourMission">
+                <h2>Our Mission</h2>
+                <p>At DogCoPedia, it is our mission to provide you with a wide range of images and resources to get to
+                    know the dog breed of your choosing.
+                </p>
+                <button id="button1">Learn More</button>
+            </section>
+            <section id="ourValues">
+                <h2>Our Values</h2>
+                <p>At DogCoPedia, we value honesty, transparency, diligency and helping even people with disabilities
+                    get to use technology and find the dog breed suitable for them
+                </p>
+                <button id="button2">Learn More</button>
+            </section>
+        </div>
     </main>
     <footer>
         <div>
