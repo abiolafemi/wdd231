@@ -80,7 +80,7 @@ p {
 }
 
 #navi ul {
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding: 1rem 3rem;
     font-size: 1.4rem;
     background-color: #b18d7b;

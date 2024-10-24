@@ -34,7 +34,7 @@
 
     #navi ul {
         display: flex;
-        max-width: 28rem;
+        max-width: 20rem;
         justify-content: space-between;
         padding: 1rem;
         background-color: #075c64;
